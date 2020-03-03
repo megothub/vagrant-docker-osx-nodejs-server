@@ -22,7 +22,7 @@ You can check that server is running using either *curl*
 curl http://localhost:3000
 ```
 or
-simply point your browser to:
+simply point your *web-browser* to:
 ```
 localhost:3000
 ```
