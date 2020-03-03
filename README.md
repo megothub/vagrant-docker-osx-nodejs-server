@@ -5,17 +5,24 @@ Inspired by [Seanmatthews/vagrant-docker-osx-nodejs-server](https://github.com/S
 
 ## Usage
 
-Make sure you have [Vagrant](https://www.vagrantup.com/downloads.html) and [Docker (Stable)](https://hub.docker.com/editions/community/docker-ce-desktop-mac) installed. Then, clone that repo and start everything with:
+* Make sure you have [Vagrant](https://www.vagrantup.com/downloads.html) and [Docker (Stable)](https://hub.docker.com/editions/community/docker-ce-desktop-mac) installed
+
+* Clone the repo
+```
+git clone https://github.com/megothub/vagrant-docker-osx-nodejs-server.git
+cd vagrant-docker-osx-nodejs-server
+```
+* Start everything with
 ```bash
 vagrant up
 ```
 
-You can check that your server is running with:
+You can check that server is using either
 ```bash
 curl http://localhost:3000
 ```
-
-Or simply point your browser to:
+or
+simply point your browser to
 ```
 localhost:3000
 ```
