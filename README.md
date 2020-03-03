@@ -36,7 +36,7 @@ vagrant docker-exec -it -- /bin/bash
 Vagrant machine definition. Docker in our case.
 
 ### Dockerfile
-Contains instruction to build Docker image. We update Ubuntu repos and system files, install Node.js, create a public www directory and move Node.js app to it. Then instructions tell to run the app and expose one network port outside the container.
+Contains instructions to build Docker image. Docker updates Ubuntu repos and system files, installs Node.js, creates a public www directory and moves out Node.js app to it. Then instructions tell Docker to run the app and expose one network port outside the container.
 
 ### app.js
 Simple Node.js server. It responds to everything with 'Hello World'. Listening on '0.0.0.0' within the container.
