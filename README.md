@@ -25,14 +25,12 @@ Use the following command to connect to the container:
 vagrant docker-exec -it -- /bin/bash
 ```
 
-### Tested on
-macOS Catalina: 10.15.3.
-Vagrant: 2.2.7
-Docker Desktop: 2.2.0.3 (42716)
-Docker Engine: 19.03.5
-
-### Tested with
-nodejs: 12.16.1
+### Tested with the following software
+* macOS Catalina: 10.15.3
+* Vagrant: 2.2.7
+* Docker Desktop: 2.2.0.3 (42716)
+* Docker Engine: 19.03.5
+* Node.js: 12.16.1
 
 ### Vagrantfile
 This is the main Vagrantfile, which runs the Docker container
