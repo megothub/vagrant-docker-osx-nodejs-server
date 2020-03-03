@@ -33,13 +33,10 @@ vagrant docker-exec -it -- /bin/bash
 * Node.js: 12.16.1
 
 ### Vagrantfile
-This is the main Vagrantfile, which runs the Docker container
+Vagrant machine definition. Docker in our case.
 
 ### Dockerfile
-This is where the Docker magic happens. There's not much going on here--
-Ubuntu updates its repos, installs Node.js, creates a public www directory,
-moves out Node.js app to it, then runs it.
+Contains instruction to build Docker image. We update Ubuntu repos and system files, install Node.js, create a public www directory and move Node.js app to it. Then instructions tell to run the app and expose one network port outside the container.
 
 ### app.js
-This is the super simple Node.js server. It responds to everything with
-'Hello World'. No ip is specified, so it defaults to '0.0.0.0' within the container.
+Simple Node.js server. It responds to everything with 'Hello World'. Listening on '0.0.0.0' within the container.
