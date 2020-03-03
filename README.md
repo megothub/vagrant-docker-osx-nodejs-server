@@ -7,22 +7,22 @@ Inspired by [Seanmatthews/vagrant-docker-osx-nodejs-server](https://github.com/S
 
 * Make sure you have [Vagrant](https://www.vagrantup.com/downloads.html) and [Docker (Stable)](https://hub.docker.com/editions/community/docker-ce-desktop-mac) installed
 
-* Clone the repo
+* Clone the repo:
 ```
 git clone https://github.com/megothub/vagrant-docker-osx-nodejs-server.git
 cd vagrant-docker-osx-nodejs-server
 ```
-* Start everything with
+* Start everything with:
 ```bash
 vagrant up
 ```
 
-You can check that server is using either
-```bash
+You can check that server is running using either *curl*
+```
 curl http://localhost:3000
 ```
 or
-simply point your browser to
+simply point your browser to:
 ```
 localhost:3000
 ```
@@ -46,4 +46,4 @@ Vagrant machine definition. Docker in our case.
 Contains instructions to build Docker image. Docker updates Ubuntu repos and system files, installs Node.js, creates a public www directory and moves out Node.js app to it. Then instructions tell Docker to run the app and expose one network port outside the container.
 
 ### app.js
-Simple Node.js server. It responds to everything with 'Hello World'. Listening on '0.0.0.0' within the container.
+Simple Node.js server. It responds to everything with 'Hello World'. Listens on '0.0.0.0' within the container.
