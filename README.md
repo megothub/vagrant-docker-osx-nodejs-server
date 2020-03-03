@@ -5,7 +5,7 @@ Inspired by [Seanmatthews/vagrant-docker-osx-nodejs-server] https://github.com/S
 
 # Usage
 
-Make sure you have [Vagrant] https://www.vagrantup.com/downloads.html and [Docker (Stable)] https://hub.docker.com/editions/community/docker-ce-desktop-mac installed. Then, start everything with:
+Make sure you have [Vagrant](https://www.vagrantup.com/downloads.html) and [Docker (Stable)](https://hub.docker.com/editions/community/docker-ce-desktop-mac) installed. Then, start everything with:
 
 
 ```bash
